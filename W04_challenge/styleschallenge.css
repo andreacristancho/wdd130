@@ -1,0 +1,105 @@
+body {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(226, 156, 206);
+}
+footer {
+  background-color: rgb(226, 156, 206);
+  padding: 10px;
+}
+
+a {
+  color: white;
+  margin: 40px;
+  font-size: 2em;
+}
+
+h1,
+h3,
+h4 {
+  color: White;
+}
+
+h1:hover {
+  color: Black;
+  background-color: rgb(226, 156, 206);
+}
+
+a:hover {
+  background-color: white;
+  color: steelblue;
+}
+
+img {
+  width: 50px;
+}
+p {
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 2em;
+  color: White;
+  display: block;
+}
+
+.main-para {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+img {
+  width: 20%;
+}
+
+p {
+  width: 80%;
+}
+
+a {
+  font-size: 1.5em;
+}
+footer p {
+  font-size: 20px;
+  margin: 20px auto;
+  color: Black;
+}
+
+a:hover {
+  background-color: white;
+  color: steelblue;
+}
+
+ol {
+  display: block;
+}
+#background-pic {
+  background-color: rgb(226, 156, 206);
+  height: 700px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+#background_Faith {
+  background-color: rgb(226, 156, 206);
+  height: 150px;
+  width: 400px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+#background_because {
+  background-color: rgb(226, 156, 206);
+  height: 600px;
+  width: 350px;
+  margin: 0 auto;
+}
+
+#background_Education {
+  background-color: rgb(226, 156, 206);
+  height: 600px;
+  width: 350px;
+  margin: 0 auto;
+  font-size: 50px;
+}
