@@ -8,43 +8,36 @@ body {
 }
 
 .home-grid {
-  background-color: gray;
-  height: 800px;
   width: 1600px;
+  display: inline-block;
 }
 
-#desk-img {
+.desk-img {
   border-radius: 50%;
-  width: 180px;
+  width: 300px;
   display: inline;
-  border: 10px solid rgb(80, 78, 78);
-  margin: 20px 60px;
+  border: 10px solid rgb(32, 31, 31);
+  margin: 0;
+  margin: 40px 60px;
 }
 
-#graph-img {
+.graph-img {
   border-radius: 50%;
-  width: 180px;
+  width: 300px;
   display: inline;
-  border: 10px solid rgb(80, 78, 78);
-  margin: 20px 60px;
+  border: 10px solid rgb(32, 31, 31);
+  margin: 0;
+  margin: 40px 60px;
 }
 
-#person-img {
+.person-img {
   border-radius: 50%;
-  width: 180px;
+  width: 300px;
   display: inline;
-  border: 10px solid rgb(80, 78, 78);
-  margin: 20px 60px;
+  border: 10px solid rgb(32, 31, 31);
+  margin: 40px 60px;
 }
 
-#image-container {
-  background-color: grey;
-  height: 1200px;
-  width: 1600px;
-  display: inline;
-  border-radius: 25%;
-}
-
-#background {
+.image-container {
   background-color: grey;
 }

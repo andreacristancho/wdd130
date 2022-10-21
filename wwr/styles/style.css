@@ -1,11 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Galindo&family=Poppins:wght@200&display=swap");
+
 body {
   background-color: white;
   max-width: 1600px;
   margin: 0 auto;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
   background-color: #023047;
+  height: 200px;
+}
+#logo_link {
+  padding-top: 5px;
 }
 
 img {
@@ -30,6 +39,10 @@ img {
 
 .home-tittle {
   color: #fb8500;
+  font-size: 4em;
+  font-family: "Architects Daughter", cursive, "Galindo", cursive, "Poppins",
+    sans-serif;
+  margin-top: 10px;
 }
 
 h1 {
@@ -41,6 +54,7 @@ h1 {
 h2 {
   text-align: center;
   color: black;
+  margin: 0;
 }
 
 p {
@@ -56,12 +70,13 @@ nav a {
   background-color: #023047;
   color: white;
   text-decoration: none;
+  padding: 5px 35px;
 }
 
 nav a:hover {
   text-align: center;
-  background-color: black;
-  color: #ffb703;
+  background-color: white;
+  color: black;
 }
 
 #hero-msg h1 {
@@ -90,27 +105,45 @@ main section {
   color: white;
   text-decoration: none;
   text-align: center;
+  font-size: 18px;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .join {
   background-color: #023047;
   color: white;
   text-decoration: none;
+  font-size: 18px;
+  font-family: "Galindo", "Poppins", sans-serif;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover {
-  background-color: #023047;
-  color: #ffb703;
+  background-color: #fb8500;
+  color: black;
   text-align: center;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 5px;
 }
 
 .join:hover {
   background-color: white;
   color: black;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 5px;
 }
 
 .msg {
   background-color: #023047;
+  line-height: 1.5em;
+  padding: 35px;
 }
 .msg h2 {
   background-color: #023047;
@@ -120,9 +153,11 @@ main section {
 .msg p {
   background-color: #023047;
   color: #ffb703;
+  font-size: 0.8em;
 }
 footer {
   background-color: #ffb703;
+  padding: 25px 50px;
 }
 
 footer p {
@@ -145,6 +180,7 @@ footer a:hover {
 
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 .logo {
@@ -154,4 +190,28 @@ footer a:hover {
 
 .hero-img {
   width: 100%;
+}
+
+footer .social {
+  padding-top: 15px;
+}
+
+.rivers-card {
+  margin: 200px 0;
+}
+
+.camping-card {
+  margin: 200px 0;
+}
+
+.rapids-card {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid #023047;
+}
+
+main section img {
+  box-sizing: border-box;
 }
