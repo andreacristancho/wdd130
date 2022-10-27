@@ -89,14 +89,14 @@
 }
 .green3 {
   background-color: green;
-  grid-column: 1/2;
-  grid-row: 2/3;
+  width: 350px;
+  height: 400px;
 }
 .yellow3 {
   background-color: gold;
-  width: 800px;
+  width: 350px;
   height: 400px;
-  margin-left: 200px;
+  margin-left: 75px;
 }
 .blue3 {
   background-color: blue;
@@ -104,11 +104,12 @@
   grid-row: 3/4;
   width: 70%;
 }
+
 /* Activity 4 styles */
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   width: 100%;
-  height: 600px;
+  height: 300px;
   display: grid;
   grid-template-columns: 1fr 1fr 5fr;
   grid-template-rows: 1fr 1fr 1fr;
