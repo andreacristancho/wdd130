@@ -1,0 +1,35 @@
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#background {
+  background-color: rgb(153, 152, 152);
+}
+
+h1 {
+  color: black;
+  font-size: 5em;
+  font-stretch: extra-expanded;
+  font-family: "Times New Roman", Times, serif;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  z-index: 1;
+}
+
+h4 {
+  color: red;
+  font-size: 4em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-stretch: extra-expanded;
+  margin-top: 1600px;
+  text-align: center;
+  margin: 0;
+}
