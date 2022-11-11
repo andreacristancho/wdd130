@@ -74,7 +74,6 @@ h1 {
 
 h2 {
   text-align: center;
-  text-justify: center;
   color: black;
   margin: 0;
 }
@@ -317,7 +316,6 @@ main section img {
   grid-column: 1/2;
   grid-row: 2/3;
   text-align: center;
-  text-justify: newspaper;
   font-family: "Galindo", "Poppins", sans-serif;
   color: #fb8500;
   font-size: 1.5em;
@@ -392,7 +390,7 @@ main section img {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-rows: 1fr;
   padding: 50px;
-  border-radius: 10px solid #023047;
+  border: 10px solid #023047;
   justify-content: center;
   align-items: center;
 }
