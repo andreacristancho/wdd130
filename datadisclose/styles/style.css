@@ -212,7 +212,7 @@ p {
 #background {
   grid-column: 1/4;
   grid-row: 1/2;
-  background-color: #d5dcdd;
+  background-color: #c0c9ca;
   padding-top: 60px;
   z-index: -1;
 }
