@@ -524,7 +524,7 @@ footer a:hover {
   border: none;
   outline: none;
   transition: 0.4s;
-  font-family: "Russo One", "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Poppins;
   font-size: 1.4em;
 }
 
@@ -547,18 +547,22 @@ footer a:hover {
 .FAQ-grid {
   width: 1600px;
   display: grid;
-  grid-template-columns: 3fr 2fr;
-  grid-template-rows: 0.5fr 1fr 1fr 1fr;
+  grid-template-columns: 5fr 2fr;
+  grid-template-rows: 0.5fr 1fr 1fr 0.1fr;
 }
 
 .FAQ-img {
   grid-column: 2/3;
-  grid-row: 3/4;
+  grid-row: 2/3;
+  margin: auto;
+  margin-top: 80px;
 }
 
 .FAQ-msg {
   grid-column: 1/2;
   grid-row: 2/5;
+  margin-left: 100px;
+  resize: vertical;
 }
 
 .FAQ-tittle {
@@ -567,12 +571,14 @@ footer a:hover {
   color: #e63946;
   font-size: 2.3em;
   padding-top: 100px;
+  grid-column: 1/3;
+  grid-row: 1/2;
 }
 
 .button-box-support {
   grid-column: 1/3;
   grid-row: 5/6;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 .contactus-box-support {
@@ -611,6 +617,9 @@ footer a:hover {
   margin-top: 150px;
 }
 
+.name-executive {
+  text-align: center;
+}
 /* START - How TO - Meet the team (Testimonies) in SUPPORT PAGE */
 
 /* Three columns side by side */
@@ -669,6 +678,8 @@ footer a:hover {
 
 .container p {
   font-size: 20px;
+  text-align: justify;
+  padding-right: 50px;
 }
 
 /* END - How TO - Meet the team (Testimonies) in SUPPORT PAGE 
@@ -698,6 +709,7 @@ input[type="submit"] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  font-family: Roboto;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
@@ -708,7 +720,7 @@ input[type="submit"]:hover {
 /* Add a background color and some padding around the form */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #edf7fd;
   padding: 20px;
 }
 
@@ -720,7 +732,7 @@ input[type="submit"]:hover {
   position: relative;
   max-width: 1100px; /* Maximum width */
   margin: 0 auto; /* Center it */
-  margin-bottom: 100px;
+  padding-top: 100px;
 }
 
 .container-form-image .content {

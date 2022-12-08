@@ -20,7 +20,7 @@
             />
           </a>
           <div id="banner-box">
-            <h1 class="banner_tittle">Share my Data</h1>
+            <p class="banner_tittle">Share my Data</p>
             <nav>
               <a href="index.html">Home</a>
               <a href="product.html">Product</a>
@@ -31,135 +31,161 @@
         </section>
       </header>
 
+      <main class="main_part_support">
+        <div class="FAQ-grid">
+          <h1 class="FAQ-tittle">FREQUENTLY ASKED QUESTIONS (FAQ)</h1>
 
-    </header>
-    
-    
-    <main class="main_part_support">
-    
-      <div class=“FAQ-grid">
-        <h1 class=“FAQ-tittle">FREQUENTLY ASKED QUESTIONS (FAQ)</h1>
-        
-        <img
-          class="FAQ-img"
-          src="images/rsz_preguntas_frecuentes_1.png"
-          alt=“FAQ image"
-        />
-        <div class=“FAQ-msg">
-          
-          <button class="accordion">SHARE MY DATA Is it an installable program?
-          </button>
-          <div class="panel">
-            <p>No, it is a web site that can be accessed from any mobile device.
-            </p>
+          <img
+            class="FAQ-img"
+            src="images/rsz_preguntas_frecuentes_1.png"
+            alt="FAQ image"
+          />
+          <div class="FAQ-msg">
+            <button class="accordion">
+              SHARE MY DATA Is it an installable program?
+            </button>
+            <div class="panel">
+              <p>
+                No, it is a web site that can be accessed from any mobile
+                device.
+              </p>
+            </div>
+
+            <button class="accordion">
+              SHARE MY DATA requires knowledge of systems and computing by users
+              to access the information?
+            </button>
+            <div class="panel">
+              <p>
+                No, anyone with basic knowledge of internet access can use it.
+              </p>
+            </div>
+
+            <button class="accordion">
+              If I have the information in my information systems but I want to
+              present it in a more friendly way, can I receive help?
+            </button>
+            <div class="panel">
+              <p>
+                We can help you create more visual and attractive Business
+                Intelligence reports.
+              </p>
+            </div>
+
+            <button class="accordion">
+              Every time I want to update information to display, should I
+              contact the provider?
+            </button>
+            <div class="panel">
+              <p>
+                No, the idea is that you can autonomously update the
+                information.
+              </p>
+            </div>
+
+            <button class="accordion">
+              What support is available to me once the tool management training
+              process is over?
+            </button>
+            <div class="panel">
+              <p>
+                You have 3 weekly hours of virtual support for a month, after
+                completion of the training stage. After this, you can request
+                hours of training according to your need, with the respective
+                payment.
+              </p>
+            </div>
           </div>
 
-          <button class="accordion">SHARE MY DATA requires knowledge of systems and computing by users to access the information?
-          </button>
-          <div class="panel">
-            <p>No, anyone with basic knowledge of internet access can use it.
-          </p>
-          </div>
-
-          <button class="accordion">If I have the information in my information systems but I want to present it in a more friendly way, can I receive help?
-          </button>
-          <div  class="panel">
-            <p>We can help you create more visual and attractive Business Intelligence reports.
-          </p>
-          </div>
-
-          <button class="accordion">Every time I want to update information to display, should I contact the provider?
-          </button>
-          <div  class="panel">
-            <p>No, the idea is that you can autonomously update the information.
-          </p>
-          </div>
-
-          <button class="accordion">What support is available to me once the tool management training process is over?
-          </button>
-          <div  class="panel">
-            <p>You have 3 weekly hours of virtual support for a month, after completion of the training stage. After this, you can request hours of training according to your need, with the respective payment.
-          </p>
-          </div>
-      </div>
-
-        <div class="button-box-support">
+          <div class="button-box-support">
             <a class="contactus-box-support" href="contactus.html">
-            I want to receive more information</a>
-        </div>
-    
+              I want to receive more information</a
+            >
+          </div>
 
-      <script>
+          <script>
             var acc = document.getElementsByClassName("accordion");
-        var i;
+            var i;
 
-        for (i = 0; i < acc.length; i++) {
-          acc[i].addEventListener("click", function() {
-            /* Toggle between adding and removing the "active" class,
-            to highlight the button that controls the panel */
-            this.classList.toggle("active");
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function () {
+                /* Toggle between adding and removing the "active" class,
+              to highlight the button that controls the panel */
+                this.classList.toggle("active");
 
-            /* Toggle between hiding and showing the active panel */
-            var panel = this.nextElementSibling;
-            if (panel.style.display === "block") {
-              panel.style.display = "none";
-            } else {
-              panel.style.display = "block";
+                /* Toggle between hiding and showing the active panel */
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
             }
-          });
-        }
-      </script>
-
-    </div>
-
-
-    </div>
-
-    <section class="testimonies">
-    <div class="row">
-      <div class="column">
-        <div class="card">
-          <img src="images/rsz_ejecutivo_2.png" alt="Executive testimony 1" style="width:100%">
-          <div class="container">
-            <h2>LINDA KNOWLTON</h2>
-            <p>SHARE MY DATA has helped me keep my sales team updated on everything related to product news (Beauty). There they keep informed of the promotions of each brand and I don't lose sales.</p>
-          </div>
+          </script>
         </div>
-      </div>
 
-      <div class="column">
-        <div class="card">
-          <img src="images/rsz_ejecutivo_1.png" alt="Executive testimony 2" style="width: 100%">
-          <div class="container">
-            <h2>JAMEY LIEBER</h2>
-            <p>I am an accountant, before my clients frequently asked me what the current accounting standards on which they base their operation were. With SHARE MY DATA they have this information available in a personalized way.</p>
+        <section class="testimonies">
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <img
+                  src="images/rsz_ejecutivo_2.png"
+                  alt="Executive testimony 1"
+                  style="width: 100%"
+                />
+                <div class="container">
+                  <h2 class="name-executive">LINDA KNOWLTON</h2>
+                  <p>
+                    SHARE MY DATA has helped me keep my sales team updated on
+                    everything related to product news (Beauty). There they keep
+                    informed of the promotions of each brand and I don't lose
+                    sales.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img
+                  src="images/rsz_ejecutivo_1.png"
+                  alt="Executive testimony 2"
+                  style="width: 100%"
+                />
+                <div class="container">
+                  <h2 class="name-executive">JAMEY LIEBER</h2>
+                  <p>
+                    I am an accountant. My clients frequently ask me what the
+                    current accounting standards are for their business. With
+                    SHARE MY DATA they have this information available in a
+                    personalized way.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="card">
+                <img
+                  src="images/rsz_ejecutivo_3.png"
+                  alt="Executive testimony 3"
+                  style="width: 100%"
+                />
+                <div class="container">
+                  <h2 class="name-executive">JULIE SPIVEY</h2>
+                  <p>
+                    As Production Manager, I share information about my finished
+                    product with suppliers through SHARE MY DATA, which allows
+                    them to project my future purchases and be prepared with
+                    available stock.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="card">
-          <img src="images/rsz_ejecutivo_3.png" alt="Executive testimony 3" style="width: 100%">
-          <div class="container">
-            <h2>JULIE SPIVEY</h2>
-            <p>As Production Manager, I share information about my finished product with suppliers through SHARE MY DATA, which allows them to project my future purchases and be prepared with available stock.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>  
-
-    
-
-
-
-
-
-
-
-
-
-    </main>
+        </section>
+      </main>
 
       <footer>
         <p class="site_plan"><a href="site-plan.html">Site Plan</a></p>
